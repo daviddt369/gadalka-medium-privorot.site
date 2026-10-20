@@ -487,6 +487,21 @@ button {
   border-width: 0 2px 2px 0;
 }
 
+.hero-h1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: inherit;
+}
+
+.hero-h1 > span {
+  display: block;
+}
+
+.hero-h1 .hero-name {
+  font-weight: 700;
+}
+
 .hero-label {
   margin: 0 0 10px;
   color: #dbc2b0;
@@ -832,7 +847,7 @@ button {
 }
 
 .srv-title {
-  margin-bottom: 10px;
+  margin: 0 0 10px;
   font-size: 28px;
   font-weight: 600;
 }
@@ -1070,6 +1085,13 @@ button {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
+}
+
+.disclaimer {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 .rating-widget {

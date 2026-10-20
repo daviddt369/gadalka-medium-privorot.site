@@ -3,10 +3,11 @@ const siteConfig = {
   popupAutoOpenMs: 60000,
   popupSessionKey: "zarina_popup_closed",
   popupTypingPhrases: [
-    "любовная магия...",
-    "возврат любимого...",
-    "снятие негатива...",
-    "гадание на таро..."
+    "любовный приворот...",
+    "гадание на таро...",
+    "снятие порчи и сглаза...",
+    "карты ленорман...",
+    "обереги и защита..."
   ],
   tarotCards: [
     { src: "./assets/taro/3.png", name: "Императрица" },
